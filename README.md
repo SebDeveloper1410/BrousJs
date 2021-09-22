@@ -1,5 +1,5 @@
 # BrousJs
-Equipo de desarrollo Web para el Proyecto MisionTic 2021-
+Equipo de desarrollo Web para el Proyecto MisionTic 2021
 
 Equipo de Desarrollo:
 

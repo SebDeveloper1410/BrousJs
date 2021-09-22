@@ -1,13 +1,42 @@
 body{
-    background-color: azure;
-}
-h1{
-    text-align: center;
-}
-form{
-    text-align: center;
+  background-color: whitesmoke;
+  font-family: monospace;
 }
 
-.btn {
-    background-color: blue;
+.main {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.8rem auto;
+}
+
+.btn-login {
+  padding: 0.2rem 0.6rem;
+  background-color: white;
+  color: black;
+  border: black solid 0.1rem;
+}
+
+.btn-login:hover {
+  background-color: black;
+  color: white;
+}
+
+input {
+  padding: 0.6rem;
 }
