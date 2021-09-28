@@ -7,3 +7,4 @@ Equipo de Desarrollo:
 - Santiago Bejarano Ariza
 - Johan Sebastian Arteaga Pulgarin
 - Sebastian Sanabria Castro
+- Anderson Saldarriaga castaño
