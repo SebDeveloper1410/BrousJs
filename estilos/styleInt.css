@@ -1,0 +1,30 @@
+body {
+    background-image: url("../img/fondo2.png");
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+.menu {
+    background-color:teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+.itemMenu:hover {
+    background-color:rgba(26, 196, 187, 0.322);    
+}
+
+
+.itemMenu {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border-color: white;
+    border-right-style: solid;
+}
+.itemMenu a {    
+    text-decoration: none;
+    color: whitesmoke;
+}
