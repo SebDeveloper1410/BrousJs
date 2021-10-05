@@ -1,0 +1,53 @@
+body {
+    background-image: url("../img/fondo2.png");
+    background-size: cover;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .itemSalir:hover{
+    background-color:rgba(26, 196, 187, 0.322); 
+  }
+
+  .itemSalir {
+    width: 45px;
+    font-size: 20px;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+
+  }
+
+  .encabezado{
+    margin: 10px;
+    background-color:teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  h2 {
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  .itemSalir a {    
+    text-decoration: none;
+    color: whitesmoke;
+}

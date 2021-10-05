@@ -1,18 +1,12 @@
-function validar(){
-    var usuario = document.getElementById("usuario").value;
-    var contraseña = document.getElementById("contraseña").value;
+function validar() {
+    let usuario = document.getElementById("usuario").value;
+    let contraseña = document.getElementById("contraseña").value;
 
-    if(usuario=="sebastian" && contraseña=="123"){
-        location.href="usuarioAdmin.html"
+    if (usuario == "admin" && contraseña == "admin") {
+        location.href = "usuarioAdmin.html";
     }
-    else
-    {
+    else {
         alert("Ingrese correctamente sus datos");
     }
-}
-
-function expirar(){
-setTimeout(function() {
-    location.href="index.html"
-}, 1000 * 2 )
+    
 }
