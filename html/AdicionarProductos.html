@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,34 +8,37 @@
     <title>Adicionar</title>
     <link rel="stylesheet" href="../estilos/styleSantiago.css">
 </head>
+
 <body>
-    <h1>Tabla de productos</h1>
-    <table class="Tabla-productos">
-        <tr>
-            <th>Producto</th>
-            <th>ID</th>
-            <th>Precio</th>
-        </tr>
-        <tr>
-            <td>Pegante</td>
-            <td>1</td>
-            <td>2000</td>
-        </tr>
-        <tr>
-            <td>Tijeras</td>
-            <td>2</td>
-            <td>3000</td>
-        </tr>
-        <tr>
-            <td>Cuaderno</td>
-            <td>3</td>
-            <td>4000</td>
-        </tr>
-    </table>
-    <section>
-        <input type="text" name="productos" placeholder="Ingrese el producto que desea agregar">
-        <input type="text" name="identificador" placeholder="Ingrese el ID del producto">
-        <input type="text" name="precio" placeholder="Ingrese el precio del producto">
-    </section>
+    <h1>Carrito de ventas</h1>
+
+    <div class="contenedor">
+        <div class="productos">
+            <div class="lista">
+                <select name="" id="">
+                    <option value="">--selecciones producto--</option>
+                    <option value="">lapiz</option>
+                    <option value="">borrador</option>
+                    <option value="">pintura</option>
+                </select>
+            </div>
+            <div class="accion">
+                <input type="text">
+                <button>Agregar</button>
+            </div>
+        </div>
+        <div class="selecion">
+            <table>
+                <tr>
+                    <th>Producto</th>
+                    <th>Valor</th>
+                    <th>Cantidad</th>
+                    <th>Total</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
 </body>
+
 </html>
